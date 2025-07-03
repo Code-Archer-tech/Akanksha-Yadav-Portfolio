@@ -736,3 +736,87 @@ small {
   font-weight: normal;
   color: #333;
 }
+
+
+.card.large {
+  height: 600px; /* or adjust as needed */
+}
+.card-content p {
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Image responsive setup */
+.certificate-card .card-image {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.certificate-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Description paragraph inside every certificate card */
+.certificate-card .card-content p {
+  font-weight: bolder;
+  text-align: justify;
+  text-justify: auto;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+  word-spacing: normal;
+  hyphens: auto;
+}
+
+/* For smaller screens, remove justification to avoid spacing issues */
+@media (max-width: 600px) {
+  .certificate-card .card-content p {
+    text-align: left;
+  }
+}
+
+
+.certificate-desc {
+  font-weight: bolder;
+  text-align: justify;
+  text-justify: auto;         /* Changed from inter-word */
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+  hyphens: auto;              /* Helps split long words if needed */
+  word-spacing: normal;       /* Prevents stretched spacing */
+}
+
+@media (min-width: 601px) {
+  .certificate-desc {
+    text-align: justify;
+    text-justify: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .certificate-desc {
+    text-align: left;
+  }
+}
