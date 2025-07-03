@@ -820,3 +820,24 @@ small {
     text-align: left;
   }
 }
+
+
+.view-certificate-btn {
+  background-color: #00796b;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.view-certificate-btn:hover {
+  background-color: #004d40;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
