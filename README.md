@@ -24,7 +24,7 @@ Whether you're a hiring manager, recruiter, mentor, or collaborator — this por
 
 ## 🚀 Live Project
 
-➡️ [**Live Portfolio Website**](https://codearcher.github.io/Akanksha-Yadav-Portfolio/)
+➡️ [**Live Portfolio Website**](https://code-archer-tech.github.io/Akanksha-Yadav-Portfolio/)
 
 Built with GitHub Pages – auto-deploys with every update.
 
