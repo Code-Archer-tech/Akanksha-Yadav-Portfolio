@@ -8,7 +8,7 @@ Dual-track profile support (Tech + Management)
 
 ## 🖼️ Preview
 
-![Akanksha Yadav Portfolio Preview](assets/img/preview.png)
+![Akanksha Yadav Portfolio Preview](examples/preview.png)
 
 ---
 
