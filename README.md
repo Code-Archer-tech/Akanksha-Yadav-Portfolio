@@ -110,4 +110,13 @@ This portfolio was created for:
 ---
 
 ## 📂 Folder Structure
-
+Akanksha-Yadav-Portfolio/
+├── index.html
+├── style.css
+├── README.md
+├── assets/
+│ ├── img/
+│ │ ├── portfolio-preview.png
+│ │ ├── logos, certificates, tool-icons
+│ └── fonts/
+└── scripts/
