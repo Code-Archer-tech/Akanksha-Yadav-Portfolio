@@ -841,3 +841,47 @@ small {
   transform: translateY(-2px);
 }
 
+#achievements .card-content ul {
+  padding-left: 1.2rem;
+}
+
+#achievements .card-content ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+#contact .btn-floating {
+  background-color: #00897b !important; /* Teal-dark */
+}
+
+#contact p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+.footer-icon {
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+
+.contact-footer {
+  background-color: #bcf7f0; /* Deep teal match */
+}
