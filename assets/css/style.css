@@ -76,7 +76,7 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
+  background: #e6e0e0;
   color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
@@ -86,7 +86,10 @@
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-
+.readme:hover{
+  color: #00897b;
+  background-color: #e6e0e0;
+}
 .contactme {
   position: relative;
   padding: 11px 35px;
@@ -133,9 +136,12 @@ blockquote * {
 .text-center {
   text-align: center;
 }
+.nav-icon {
+  color: #9b39f9 !important;  /* Purple shade or anything premium */
+}
 
 nav {
-  background: white;
+  background: rgb(192, 86, 86);
   box-shadow: none;
   height: 0;
 }
@@ -147,9 +153,16 @@ nav i {
 }
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+background: linear-gradient(135deg, #fdfcfb, #f8f9fa);
+
+
+
+
+  background-repeat: repeat;
+  background-size: auto;
   padding-left: 190px;
 }
+
 
 dl {
   margin-top: 0.5rem;
@@ -168,6 +181,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #334960;
 }
 
 ul.side-nav li {
@@ -197,7 +211,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #334960;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -210,12 +224,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #2c5159;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #00d1ff !important;
 }
 
 li.logo span {
@@ -284,13 +298,17 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background:#3c428a;
+  color: #d7f9ff; /* soft ice-blue */
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
+  text-shadow: 0 0 4px rgba(215, 249, 255, 0.6);
+
 }
+
 
 .waves-effect.waves-blue .waves-ripple {
   background-color: rgba(33, 150, 243, 0.2);
@@ -298,11 +316,13 @@ h3 {
 
 .card {
   margin-bottom: 60px;
+      background-color: #d9efff;
 }
 
 .card .role {
   font-size: 1.25rem;
   position: absolute;
+  color: #d55831 !important;
   right: 38px;
   top: 30px;
 }
@@ -354,7 +374,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #9f3f3f;
 }
 
 .container .row {
@@ -373,7 +393,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #cf1e1e;
   font-size: 13px;
 }
 
@@ -404,7 +424,7 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #db5151;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
@@ -425,7 +445,7 @@ a.hoverline:hover {
 }
 
 #experience .card-content .row {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e01212;
   padding-bottom: 10px;
 }
 
@@ -466,15 +486,19 @@ small {
 }
 
 .grey-text {
-  color: #666 !important;
+  color: lch(41.26% 73.4 35.08) !important;
+}
+
+.brown-text {
+    color: #9e4418 !important;
 }
 
 .teal-text {
-  color: #008073 !important;
+  color: #0aa0ca !important;
 }
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #0a7dab !important
 }
 
 @media (min-width: 1200px) {
@@ -508,12 +532,12 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
-    height: 64px;
+    background: mediumpurple
+    height 64px;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #e484dd;
     height: 56px;
     line-height: 56px;
   }
@@ -680,7 +704,7 @@ small {
   font-size: 20px;
   color: #5d4037;
   font-weight: 500;
-  margin-top: -1rem;
+  margin-top: 0rem;
   }
 
 
@@ -745,15 +769,6 @@ small {
   overflow-y: auto;
   max-height: 200px;
 }
-
-
-
-
-
-
-
-
-
 
 /* Image responsive setup */
 .certificate-card .card-image {
@@ -861,27 +876,100 @@ small {
   margin-top: 8px;
 }
 
-.footer-icon {
-  font-size: 20px;
-  margin: 0 10px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
+
+
+
+
+@media (max-width: 992px) {
+  nav.hide-on-large.only.trigger {
+    display: block;
+    background: linear-gradient(318deg, #2a2530, #385d82);
+    height: 64px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .name-title {
+    display: block;
+    height: 100%;
+    padding-top: 12px;
+    text-align: center;
+    color: white;
+  }
+
+  .name-title a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .name-title span {
+    display: block;
+    font-size: 14px;
+    color: #f8f8f8;
+  }
+
+  .button-collapse i {
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 }
 
-.footer-icon:hover {
-  transform: scale(1.2);
-}
-.footer-icon {
-  font-size: 20px;
-  margin: 0 10px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
 
-.footer-icon:hover {
-  transform: scale(1.2);
-}
+
 
 .contact-footer {
-  background-color: #bcf7f0; /* Deep teal match */
+  background-color: #f1faf9;
+  padding: 25px 0;
+  margin-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-heading {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-subtext {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.social-icons-footer {
+  margin-top: 15px;
+}
+
+.footer-icon {
+  font-size: 22px;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+
+.footer-icon .fa-envelope {
+  color: #D44638;
+}
+
+.footer-icon .fa-linkedin {
+  color: #0077B5;
+}
+
+.footer-icon .fa-phone {
+  color: #4CAF50;
+}
+
+.footer-copyright {
+  color: #222;
+  font-size: 12px;
+  margin-top: 18px;
 }
