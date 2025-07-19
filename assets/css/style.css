@@ -153,7 +153,7 @@ nav i {
 }
 
 main {
-background: linear-gradient(135deg, #fdfcfb, #f8f9fa);
+background: linear-gradient(135deg, #fdfbfc, #b811a6);
 
 
 
@@ -181,7 +181,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
-  background-color: #334960;
+  background-color: #691042;
 }
 
 ul.side-nav li {
@@ -211,8 +211,8 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 ul.side-nav.fixed li.logo {
-  background-color: #334960;
-  border-bottom: 1px solid #ddd;
+  background-color: #691042;
+  border-bottom: 1px solid #a72929;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -298,7 +298,7 @@ h3 {
 }
 
 .overlay {
-  background:#3c428a;
+  background-color: rgb(92, 15, 71);
   color: #d7f9ff; /* soft ice-blue */
   height: 100%;
   left: 0;
@@ -360,7 +360,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: #ffc2f1;
   border: none;
 }
 
@@ -498,7 +498,7 @@ small {
 }
 
 .teal {
-  background-color: #0a7dab !important
+  background-color: #b811a6 !important
 }
 
 @media (min-width: 1200px) {
@@ -628,7 +628,7 @@ small {
   }
 }
 
-/* ✅ BOLD FIX */
+/*  BOLD FIX */
 .card ul > li {
   font-weight: 400 !important;
   color: #333 !important;
