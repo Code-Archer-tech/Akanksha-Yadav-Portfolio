@@ -106,7 +106,7 @@
 }
 
 .contactme:hover {
-  color: #00796b;
+  color: #cd1717;
   background-color: white;
 }
 
@@ -212,7 +212,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 
 ul.side-nav.fixed li.logo {
   background-color: #691042;
-  border-bottom: 1px solid #a72929;
+  border-bottom: 1px solid #520b0b;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -224,12 +224,13 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #2c5159;
+  background-color: #8f3434;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #00d1ff !important;
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
 li.logo span {
@@ -316,15 +317,23 @@ h3 {
 
 .card {
   margin-bottom: 60px;
-      background-color: #d9efff;
+      background-color: #deadc891;
 }
 
 .card .role {
   font-size: 1.25rem;
   position: absolute;
-  color: #d55831 !important;
+  color: #ff3d00 !important;
   right: 38px;
+  font-weight: 800;
   top: 30px;
+}
+.card a{
+  color: #ff0044;
+}
+
+.card a :hover{
+  color: #cd1717;
 }
 
 .card li a {
@@ -494,11 +503,12 @@ small {
 }
 
 .teal-text {
-  color: #0aa0ca !important;
+  color: #e8e0e0 !important;
+ 
 }
 
 .teal {
-  background-color: #b811a6 !important
+  background-color: #9b2b2b !important
 }
 
 @media (min-width: 1200px) {
