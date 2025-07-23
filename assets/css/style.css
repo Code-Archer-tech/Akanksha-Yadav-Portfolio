@@ -317,7 +317,7 @@ h3 {
 
 .card {
   margin-bottom: 60px;
-      background-color: #deadc891;
+      background-color: #ffffff91;
 }
 
 .card .role {
@@ -329,7 +329,7 @@ h3 {
   top: 30px;
 }
 .card a{
-  color: #ff0044;
+  color: #cb365e;
 }
 
 .card a :hover{
@@ -505,6 +505,10 @@ small {
 .teal-text {
   color: #e8e0e0 !important;
  
+}
+
+.white-text{
+      background-color: brown;
 }
 
 .teal {
@@ -743,6 +747,18 @@ small {
 }
 
 
+a.hoverline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none; /* remove default underline */
+}
+
+
+
+a.hoverline:hover::after {
+  width: 30%; /* or 50%, jitna chhota chahein */
+}
+
 .d-flex-space {
   display: flex;
   justify-content: space-between;
@@ -784,7 +800,7 @@ small {
 .certificate-card .card-image {
   width: 100%;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #efb4b4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -983,3 +999,12 @@ small {
   font-size: 12px;
   margin-top: 18px;
 }
+
+
+
+
+
+
+
+
+
