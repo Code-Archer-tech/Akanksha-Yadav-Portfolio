@@ -408,6 +408,8 @@ h3 {
 
 .card .card-title {
   font-size: 24px;
+  color: #cd1717;
+  font-weight: 400;
 }
 
 .card .card-content .card-title {
@@ -949,10 +951,10 @@ a.hoverline:hover::after {
 
 
 .contact-footer {
-  background-color: #f1faf9;
+  background-color: #e580db;
   padding: 25px 0;
   margin-top: 30px;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #b14d54;
 }
 
 .footer-heading {
@@ -963,7 +965,7 @@ a.hoverline:hover::after {
 }
 
 .footer-subtext {
-  color: #666;
+  color: #000000;
   font-size: 14px;
   margin: 0;
 }
